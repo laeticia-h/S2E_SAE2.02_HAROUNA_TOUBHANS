@@ -30,8 +30,8 @@ public class main {
         System.out.println(graphe2.toGraphViz());
 
         //Test de la méthode convertirMatriceEnListe
-        GrapheListe.convertirMatriceEnListe("../Graphes/Matrice.txt", "../Graphes/ResultatMatrice.txt");
-        GrapheListe graphe3 = new GrapheListe("../Graphes/ResultatMatrice.txt");
+        GrapheListe.convertirMatriceEnListe("./Graphes/Matrice.txt", "./Graphes/ResultatMatrice.txt");
+        GrapheListe graphe3 = new GrapheListe("./Graphes/ResultatMatrice.txt");
         //affichage du graphe au format normal et format GrapheViz
         System.out.println(graphe3);
         System.out.println(graphe3.toGraphViz());
